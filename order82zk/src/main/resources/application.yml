@@ -1,0 +1,10 @@
+server:
+  port: 8002
+
+#服务别名--注册zookeeper到注册中心的名称
+spring:
+  application:
+    name: order
+  cloud:
+    zookeeper:
+      connect-string: 47.97.73.198:2181

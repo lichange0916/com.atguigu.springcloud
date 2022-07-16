@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="payment8081-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/payment8081/target/payment8081-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

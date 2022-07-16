@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order82zk" />
+        <module name="cloud-api-common" />
+        <module name="cloud-getway-getway9527" />
+        <module name="orderConsul83" />
+        <module name="provider-hystrix-payment8084" />
+        <module name="order83Feign" />
+        <module name="order80" />
+        <module name="cloudconfigclient3355" />
+        <module name="consumer-hystrix-dashboard9001" />
+        <module name="cloud-config-center-3344" />
+        <module name="Payment8083" />
+        <module name="payment8081" />
+        <module name="eureka-server7001" />
+        <module name="payment8082" />
+        <module name="eureka-server7002" />
+        <module name="consul-payment8084" />
+        <module name="order84hystrix" />
+        <module name="cloud-config-client-3355" />
+        <module name="cloud-config-client-3366" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-common" target="8" />
+      <module name="cloud-config-center-3344" target="8" />
+      <module name="cloud-config-client-3355" target="8" />
+      <module name="cloud-config-client-3366" target="8" />
+      <module name="cloud-getway-getway9527" target="8" />
+      <module name="cloudconfigclient3355" target="8" />
+      <module name="consul-payment8084" target="8" />
+      <module name="consumer-hystrix-dashboard9001" target="8" />
+      <module name="eureka-server7001" target="8" />
+      <module name="eureka-server7002" target="8" />
+      <module name="order80" target="8" />
+      <module name="order82zk" target="8" />
+      <module name="order83Feign" target="8" />
+      <module name="order84hystrix" target="8" />
+      <module name="orderConsul83" target="8" />
+      <module name="payment8081" target="8" />
+      <module name="payment8082" target="8" />
+      <module name="Payment8083" target="8" />
+      <module name="provider-hystrix-payment8084" target="8" />
+      <module name="springcloud2020" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

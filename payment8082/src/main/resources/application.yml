@@ -1,0 +1,29 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: payment
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver           # mysql驱动包
+    url: jdbc:mysql://localhost:3306/cloudStudy?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: '0916'
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.atguigu.springboot.entity # 所有Entity别名类所在包
+
+eureka:
+  client:
+    #表示是否将自己注册进Eurekaserver默认为true。
+    register-with-eureka: true
+    #是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+  instance:
+    instance-id: payment8082 #集群名称
+    prefer-ip-address: false  #访问路径时可以显示ip地址

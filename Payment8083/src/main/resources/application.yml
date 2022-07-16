@@ -1,0 +1,10 @@
+#表示注册到zookeeper服务器的支付服务提供者的端口号
+server:
+  port: 8083
+#服务别名--注册zookeeper到注册中心的名称
+spring:
+  application:
+    name: payment
+  cloud:
+    zookeeper:
+      connect-string: 47.97.73.198:2181
